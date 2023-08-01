@@ -1,0 +1,48 @@
+.faq2{
+    padding-left: 130px;
+    padding-right: 100px;
+}
+
+.titulo2{
+    color: var(--color-title);
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    padding: 30px 0 0 0;
+}
+
+.subtitulo{
+    color: var(--color-brown);
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 33px 0 0 0;
+}
+
+.subtitulo dt::after{
+    content: '\25BC';
+    font-size: 0.985rem;
+    padding: 10px;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.resposta{
+    padding-top: 30px;
+    text-align: justify;
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+}
