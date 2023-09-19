@@ -6,6 +6,13 @@
     padding-right: 100px;
 }
 
+.js-conteudo section{
+    display: none;
+}
+
+.js-conteudo section.active{
+    display: block;
+}
 
 
 

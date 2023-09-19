@@ -3,6 +3,16 @@
     padding-right: 100px;
 }
 
+.js-resposta p{
+    display: none;
+}
+
+.js-resposta p.active{
+    display: block;
+}
+
+
+
 .titulo2{
     color: var(--color-title);
     font-family: var(--font-display);
@@ -45,4 +55,12 @@
     line-height: 28px;
     height: auto;
     width: auto;
+}
+
+.faq2 .resposta{
+    display: none;
+}
+
+.faq2 div.active{
+    display: block;
 }
