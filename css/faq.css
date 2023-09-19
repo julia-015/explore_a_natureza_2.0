@@ -64,3 +64,13 @@
 .faq2 div.active{
     display: block;
 }
+
+.faq2 subtitulo::after{
+    content: '\25BC';
+    font-size: 0.985rem;
+    padding: 10px;
+}
+
+.js-accordion subtitulo.active::after{
+    content: '\25B2'
+}
