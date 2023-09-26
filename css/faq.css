@@ -65,12 +65,12 @@
     display: block;
 }
 
-.faq2 span::after{
+.faq2 .subtitulo::after{
     content: '\25BC';
     font-size: 0.985rem;
     padding: 10px;
 }
 
-.js-accordion span.active::after{
+.js-accordion .subtitulo.active::after{
     content: '\25B2'
 }
