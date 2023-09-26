@@ -71,6 +71,6 @@
     padding: 10px;
 }
 
-.js-accordion .subtitulo.active::after{
+.faq2 .subtitulo.active::after{
     content: '\25B2'
 }
