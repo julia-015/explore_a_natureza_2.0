@@ -34,7 +34,7 @@
     padding: 33px 0 0 0;
 }
 
-.subtitulo dt::after{
+.span dt::after{
     content: '\25BC';
     font-size: 0.985rem;
     padding: 10px;
@@ -65,12 +65,12 @@
     display: block;
 }
 
-.faq2 subtitulo::after{
+.faq2 span::after{
     content: '\25BC';
     font-size: 0.985rem;
     padding: 10px;
 }
 
-.js-accordion subtitulo.active::after{
+.js-accordion span.active::after{
     content: '\25B2'
 }
