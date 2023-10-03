@@ -1,0 +1,214 @@
+/* Responsividade */
+
+/*******************************************************************************/
+
+/* @media (max-width: 320px){
+
+  } */
+  
+/*******************************************************************************/
+  
+  /* Mobile 
+  @media (min-width: 320px) and (max-width: 600px) {
+
+  } */
+  
+/*******************************************************************************/
+/*   
+  /* Tablet 
+  @media (min-width: 600px) and (max-width: 992px) {
+    .caixa {
+        display: flex;
+        justify-content: right;
+        padding: 0 0 0 35px;
+    }
+    .menu {
+        background: var(--background-green);
+        color: var(--color-white);
+        width: 100%; 
+        height: 64px;
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        gap: 25px;
+    }
+  } */
+
+
+
+
+
+
+@media (max-width: 320px) {
+    /* Estilos para telas com largura máxima de 320px */
+    body {
+        font-size: 14px;
+    }
+    
+    .caixa {
+        padding: 10px 0 0 10px;
+    }
+
+    .menu {
+        padding-left: 10px;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--background-green);
+        width: 100%;
+        left: -100%;
+        top: 64px;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .menu-list.active {
+        display: flex;
+        left: 0;
+    }
+
+    .menu-link a {
+        font-size: 14px;
+    }
+
+    .main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    aside img {
+        width: 100%;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    .titulo_natureza h1 {
+        font-size: 24px;
+    }
+
+    .natureza2 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    /* Estilos para telas com largura mínima de 320px e largura máxima de 600px */
+    body {
+        font-size: 16px;
+    }
+
+    .menu {
+        padding-left: 15px;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .menu-link a {
+        font-size: 16px;
+    }
+
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    .natureza2 p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    /* Estilos para telas com largura mínima de 600px e largura máxima de 992px */
+    body {
+        font-size: 18px;
+    }
+
+    .menu {
+        padding-left: 20px;
+    }
+
+    .menu-link a {
+        font-size: 18px;
+    }
+
+    .main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .titulo_natureza h1 {
+        font-size: 28px;
+    }
+
+    .natureza2 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    /* Estilos para telas com largura mínima de 992px e largura máxima de 1024px */
+    body {
+        font-size: 20px;
+    }
+
+    .menu {
+        padding-left: 25px;
+    }
+
+    .main {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .titulo_natureza h1 {
+        font-size: 30px;
+    }
+
+    .natureza2 p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Estilos para telas com largura mínima de 1024px */
+    .main {
+        padding-left: 130px;
+        padding-right: 100px;
+    }
+
+    .natureza2 p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+}
