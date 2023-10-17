@@ -1,0 +1,200 @@
+.main{
+    padding-top: 36px;
+    padding-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+.js-conteudo section{
+    display: none;
+}
+
+.js-conteudo section.active{
+    display: block;
+}
+
+
+
+aside{
+    width: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 700px;
+    padding: 1px;
+}
+
+aside img{
+    width: 1000px;
+}
+
+::-webkit-scrollbar{
+    background-color: #d9d9d9;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2fa97c;
+}
+
+.textos{
+    width: 890px;
+}
+
+
+
+
+.natureza2{
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 0 20px 50px;
+}
+
+.titulo_natureza{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_natureza h1{
+    color: var(--color-brown);
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo_natureza span{
+    color: var(--color-brown);
+}
+
+.natureza2 p{
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.praias2{
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 0 20px 50px;
+}
+
+.titulo_praias{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_praias h1{
+    color: var(--color-brown);
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo_praias span{
+    color: var(--color-brown);
+}
+
+.praias2 p{
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.montanhas2{
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 0 20px 50px;
+}
+
+.titulo_montanhas{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_montanhas h1{
+    color: var(--color-brown);
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo_montanhas span{
+    color: var(--color-brown);
+}
+
+.montanhas2 p{
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.florestas2{
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 0 20px 50px;
+}
+
+.titulo_florestas{
+    display: flex;
+    align-items: center;
+}
+
+.titulo_florestas h1{
+    color: var(--color-brown);
+    font-family: var(--font-display);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titulo_florestas span{
+    color: var(--color-brown);
+}
+
+.florestas2 p{
+    color: var(--color-text);
+    font-family: var(--font-primary);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}

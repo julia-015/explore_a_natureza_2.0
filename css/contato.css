@@ -1,0 +1,85 @@
+.contato2{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.titulo3{
+    color: var(--color-title);
+    font-family: var(--font-display);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    padding: 100px 0 0 0;
+}
+
+.mapa{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.textos_mapa{
+    color: #626262;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 30px;
+    padding-left: 32px;
+}
+
+.p{
+    padding-bottom: 15px;
+}
+
+.endereço{
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .contato2 {
+        padding: 20px;
+    }
+    .titulo3 {
+        font-size: 24px;
+        padding: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo3 {
+        font-size: 20px;
+        padding: 20px 0 0 0;
+    }
+}
+
+
+
+
+.js-subtitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.linha {
+    flex-grow: 1;
+    background-color: #ccc;
+    height: 1px;
+    margin: 0 20px;
+}
+
+
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
