@@ -1,17 +1,4 @@
 /* Responsividade */
-
-/*******************************************************************************/
-
-/* @media (max-width: 320px){
-
-  } */
-  
-/*******************************************************************************/
-  
-  /* Mobile 
-  @media (min-width: 320px) and (max-width: 600px) {
-
-  } */
   
 /*******************************************************************************/
    
@@ -35,12 +22,8 @@
   } 
 
 
-
-
-/* 
-
 @media (max-width: 320px) {
-    /* Estilos para telas com largura máxima de 320px 
+    /* Estilos para telas com largura máxima de 320px */
     body {
         font-size: 14px;
     }
@@ -108,7 +91,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
-    /* Estilos para telas com largura mínima de 320px e largura máxima de 600px 
+    /* Estilos para telas com largura mínima de 320px e largura máxima de 600px */
     body {
         font-size: 16px;
     }
@@ -134,6 +117,7 @@
         width: 100%;
         height: auto;
         padding: 0;
+        overflow-x: auto;
     }
 
     .textos {
@@ -147,9 +131,20 @@
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
-    /* Estilos para telas com largura mínima de 600px e largura máxima de 992px 
+    /* Estilos para telas com largura mínima de 600px e largura máxima de 992px */
     body {
         font-size: 18px;
+    }
+
+    .caixa {
+        background: var(--background-green);
+        color: var(--color-white);
+        width: 100%; 
+        height: 64px;
+        display: flex;
+        align-items: center;
+        padding-left: 29px;
+        gap: 25px;
     }
 
     .menu {
@@ -173,10 +168,18 @@
         font-size: 18px;
         line-height: 28px;
     }
+
+    aside{
+        width: 300px;
+        overflow: hidden;
+        overflow-y: scroll;
+        height: 700px;
+        padding: 1px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-    /* Estilos para telas com largura mínima de 992px e largura máxima de 1024px
+    /* Estilos para telas com largura mínima de 992px e largura máxima de 1024px */
     body {
         font-size: 20px;
     }
@@ -201,7 +204,7 @@
 }
 
 @media (min-width: 1024px) {
-    /* Estilos para telas com largura mínima de 1024px 
+    /* Estilos para telas com largura mínima de 1024px */
     .main {
         padding-left: 130px;
         padding-right: 100px;
@@ -211,4 +214,117 @@
         font-size: 22px;
         line-height: 34px;
     }
-} */
+}
+
+
+
+
+/* Estilos para telas menores (600px ou menos) */
+@media (max-width: 600px) {
+    .caixa {
+        padding: 10px;
+    }
+
+    .menu {
+        padding-left: 10px;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--background-green);
+        width: 100%;
+        left: -100%;
+        top: 64px;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .menu-list.active {
+        display: flex;
+        left: 0;
+    }
+
+    .menu-link a {
+        font-size: 14px;
+    }
+
+    .main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    aside img {
+        width: 100%;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    .titulo_natureza h1 {
+        font-size: 24px;
+    }
+
+    .natureza2 p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* Estilos para telas com largura máxima de 768px */
+  
+    header {
+      height: 48px;
+    }
+  
+    nav {
+      flex-direction: column;
+    }
+  
+    main {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    section {
+      margin-bottom: 20px;
+    }
+  
+    footer {
+      height: 48px;
+    }
+  
+    /* Estilos para menu */
+  
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  
+    .main {
+      margin-top: 64px;
+    }
+  }
+
+  
+
+
+  

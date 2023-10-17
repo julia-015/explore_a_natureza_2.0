@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 768px) {
 
-    .js-list{
+    .js-list-menu{
         display: none;
         animation: fadeOut .3s forwards;
     }

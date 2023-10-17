@@ -38,3 +38,48 @@
     display: flex;
     justify-content:flex-start;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+    .contato2 {
+        padding: 20px;
+    }
+    .titulo3 {
+        font-size: 24px;
+        padding: 40px 0 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo3 {
+        font-size: 20px;
+        padding: 20px 0 0 0;
+    }
+}
+
+
+
+
+.js-subtitulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.linha {
+    flex-grow: 1;
+    background-color: #ccc;
+    height: 1px;
+    margin: 0 20px;
+}
+
+
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
